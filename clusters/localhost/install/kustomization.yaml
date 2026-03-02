@@ -10,3 +10,6 @@ labels:
 
 resources:
   - ../../../apps/hd55-ambulance-ufe
+
+components:
+  - ../../../components/version-developers
