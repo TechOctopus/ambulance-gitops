@@ -4,7 +4,10 @@ metadata:
   name: hd55-ambulance-ufe-content
 spec:
   microFrontend: hd55-ambulance-ufe
-  element: hd55-ambulance-wl-list
+  element: hd55-ambulance-wl-app
+  attributes:
+    - name: base-path
+      value: /hd55-ambulance-wl/
   displayRules:
     - allOf:
         - context-name: main-content
