@@ -9,7 +9,10 @@ labels:
       app.kubernetes.io/part-of: wac-hospital
 
 resources:
-  - ../../../apps/hd55-ambulance-ufe
+  - ../../../apps/hd55-ambulance-webapi
+
+patches:
+  - path: patches/ambulance-webapi.service.yaml
 
 components:
-  - ../../../components/version-developers
+  - https://github.com/TechOctopus/ambulance-webapi//deployments/kustomize/components/mongodb

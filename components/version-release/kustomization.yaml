@@ -4,3 +4,6 @@ images:
   - name: fiitkar/ambulance-ufe
     newName: fiitkar/ambulance-ufe
     newTag: 1.0.0 #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  - name: fiitkar/ambulance-wl-webapi
+    newName: fiitkar/ambulance-wl-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
+    newTag: main # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
