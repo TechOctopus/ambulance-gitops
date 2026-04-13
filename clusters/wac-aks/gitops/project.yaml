@@ -1,0 +1,12 @@
+apiVersion: wac-fiit.github.io/v1alpha1
+kind: Project
+metadata:
+  name: hd55-ambulance-wl
+spec:
+  title: "Zoznam čakajúcich hd55"
+  description: "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
+  authors: "Heorhi Davydau"
+  azureLink: "hd55.azurewebsites.net"
+  frontendRepoUrl: "https://github.com/TechOctopus/hd55-ambulance-ufe"
+  backendRepoUrl: "https://github.com/TechOctopus/ambulance-webapi"
+  gitopsRepoUrl: "https://github.com/TechOctopus/ambulance-gitops"
