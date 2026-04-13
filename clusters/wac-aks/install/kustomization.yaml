@@ -12,6 +12,7 @@ labels:
 
 resources:
   - ../../../apps/hd55-ambulance-ufe
+  - ../../../apps/hd55-ambulance-wl-webapi
 
 components:
   - ../../../components/version-release
